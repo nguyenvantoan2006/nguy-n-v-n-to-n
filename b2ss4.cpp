@@ -3,7 +3,6 @@
 int main() {
     int num;
 
-    // Nh?p s? nguyên
     printf("Nhap mot so nguyen: ");
     scanf("%d", &num);
 
