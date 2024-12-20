@@ -10,7 +10,7 @@ int main() {
     printf("Nhap cac phan tu cua mang:\n");
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
-            printf("Ph?n t? [%d][%d]: ", i, j);
+            printf("Phan tu? [%d][%d]: ", i, j);
             scanf("%d", &matrix[i][j]);
         }
     }
