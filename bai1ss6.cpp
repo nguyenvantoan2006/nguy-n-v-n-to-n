@@ -1,14 +1,15 @@
-#include <stdio.h>
-
-int main() {
-    
-    int arr[] = {1, 2, 3, 4, 5};
-    int n = sizeof(arr) / sizeof(arr[0]); 
-    printf("Cac phan tu trong mang la: ");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\nÐo dai cua mang la: %d\n", n);
-
-    return 0;
+#include<stdio.h>
+int main(){
+	int n ,sum=0;
+	
+	for (n=1 ; n<=5 ; n++){
+	printf ("nhap so thu %d",n);
+	scanf("%d",&n);
+	
+	if(n%2!=0){
+	 sum +=n;
 }
+}
+printf(" tong cac so le la %d",sum);
+return 0;
+	}
